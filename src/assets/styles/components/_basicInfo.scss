@@ -1,0 +1,22 @@
+.info-line {
+  height: 30px;
+  padding: 5px 30px 5px 30px;
+  background: $color-1;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &__link {
+    color: $color-3;
+    text-decoration: none;
+    font-weight: normal;
+
+    &:hover {
+      color: #cbfa83;
+    }
+  }
+}
