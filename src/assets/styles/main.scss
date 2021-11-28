@@ -1,11 +1,19 @@
-@import 'utilites/variables';
-@import 'utilites/mixins';
+@import "utilites/variables";
+@import "utilites/mixins";
 
-@import 'components/navigation';
-@import 'components/header';
+@import "components/navigation";
+@import "components/header";
 
-
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
-  margin-top: 30px;
+  margin: 0 auto;
+  padding: 0;
+  // display: flex;
+  // justify-content: center;
+
+  @media (min-width: 1000px) {
+    max-width: 1200px;
+  }
 }

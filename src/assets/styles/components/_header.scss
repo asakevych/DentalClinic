@@ -1,7 +1,15 @@
 .header {
   background-color: $color-dark;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px 0;
+  box-sizing: border-box;
 
   &__logo {
-    width: 100px;
+    width: 320px;
+    height: 100px;
+
+    box-sizing: border-box;
   }
 }
